@@ -31,6 +31,10 @@ components:
   name: image_1
   properties: {height: 104, source: _/theme/dataduck.png}
   type: Image
+- layout_properties: {slot: left-nav}
+  name: check_box_1
+  properties: {text: check_box_1}
+  type: CheckBox
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
