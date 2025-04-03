@@ -1,9 +1,35 @@
 components:
-- components: []
+- components:
+  - layout_properties: {grid_position: 'BTDDLN,KHOCVD VRGRWQ,GUAEZN'}
+    name: txt_area_query_input
+    properties:
+      height: 67
+      margin: [null, 20, 28, null]
+      text: Query
+    type: TextArea
+  - layout_properties: {grid_position: 'BTDDLN,KHOCVD PQAPCY,RDMZBL'}
+    name: txt_bx_response
+    properties: {placeholder: Response}
+    type: TextBox
+  - layout_properties: {grid_position: 'BTDDLN,GIFVGI'}
+    name: btn_search
+    properties:
+      background: theme:On Primary Container
+      bold: false
+      foreground: theme:On Primary
+      spacing:
+        margin: [10, null, null, 0]
+        padding: [21, 31, 19, 33]
+      text: search
+    type: Button
   layout_properties: {slot: default}
   name: column_panel_1
-  properties: {col_widths: '{}'}
+  properties: {col_widths: '{"KHOCVD":45,"GIFVGI":15}'}
   type: ColumnPanel
+- layout_properties: {slot: logo}
+  name: image_1
+  properties: {height: 104, source: _/theme/dataduck.png}
+  type: Image
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate

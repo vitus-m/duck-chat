@@ -1,9 +1,11 @@
 unique_ids:
   assets:
+    dataduck.png: '1743680838328173978716419.18216'
     standard-page.html: D4GMMSJCLPHVUBDNPPYB5GDOH4SH3XTK
     theme.css: 3H3TF5KH5AWCTNY5HCPCY7Q5Q5JOFJFX
   forms:
     Form1: EPOZUQZURLER2DALVTF7LO2W5MM5A7OV
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1743681704872888997730512.2603'
