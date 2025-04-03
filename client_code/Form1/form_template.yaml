@@ -7,11 +7,12 @@ components:
       margin: [null, 20, 28, null]
       text: Query
     type: TextArea
-  - layout_properties: {grid_position: 'BTDDLN,KHOCVD PQAPCY,RDMZBL'}
-    name: txt_bx_response
-    properties: {placeholder: Response}
-    type: TextBox
-  - layout_properties: {grid_position: 'BTDDLN,GIFVGI'}
+  - layout_properties: {grid_position: 'BTDDLN,KHOCVD XMMHGA,HEGWEL'}
+    name: txt_area_response
+    properties: {text: Response}
+    type: TextArea
+  - event_bindings: {click: btn_search_click}
+    layout_properties: {grid_position: 'BTDDLN,GIFVGI'}
     name: btn_search
     properties:
       background: theme:On Primary Container
